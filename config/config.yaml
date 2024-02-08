@@ -1,0 +1,11 @@
+
+server:
+  port: 3002
+  host: "localhost"
+  api_path: "api"
+
+  bandwith_limit: "1000mb"
+  cors: {
+    origin: "*"
+  }
+  url_encoded: true
