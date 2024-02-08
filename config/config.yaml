@@ -9,3 +9,27 @@ server:
     origin: "*"
   }
   url_encoded: true
+
+database:
+
+  postgresql:
+
+    dev:
+      host: "localhost"
+      port: 5432
+      database: "database_name"
+      user: "postgres"
+      password: "BS103261"
+      url: 
+    prod:
+      url: 
+
+  redis:
+    dev:
+      port: 6379
+      host: localhost
+      url: null
+    prod:
+      port: 6379
+      host: localhost
+      url: null
